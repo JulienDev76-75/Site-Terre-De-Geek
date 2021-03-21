@@ -3,30 +3,31 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style.css" />
+        <link rel="shortcut icon" href="Terredegeeklogo.png" /> <!-- Set up a Favicon   -->
         <title>Terre De Geek</title>
     </head>
 
             
-<header>
+<header> <!-- Header -->
    
-                    <div id="logo">
+                <div id="logo">
                         <img src="Terredegeeklogo.png" alt="Logo de TerreDeGeek" />
-                    </div>
+                </div>
 
                
 
-                <div id="label">
+                <div id="label"> <!-- Create a search bar   -->
                     <input type="search" id="site-search" name="q" aria-label="rechercher dans le site"
                     placeholder="Rechercher sur le site…">
                     <button>Je cherche !</button>
                 </div>
 
-                <nav>
+                <nav> <!-- Menu with link towards other pages-->
                     <ul>
-                        <li><a href="#">Accueil</a></li>
-                        <li><a href="#">Boutique</a></li>
-                        <li><a href="#">À propos de nous</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="TerreDeGeek/geek.html">Accueil</a></li>
+                        <li><a href="TerreDeGeek/boutique.html">Boutique</a></li>
+                        <li><a href="TerreDeGeek/equipeterredegeek.html">À propos de nous</a></li>
+                        <li><a href="TerreDeGeek/mentionlegale.html">Contact</a></li>
                     </ul>
                 </nav>
 
@@ -34,9 +35,10 @@
             
 
 
-<body>
+<body> <!-- Body -->
 
-                <div id="bloc_page">
+            <div id="bloc_page"> <!-- i set up a bloc page to formate all the body -->
+                                 <!-- You can notice that i did not include Header in body'section -->
 
             <div id="banniere_image">
                     
@@ -73,21 +75,23 @@
         
     </div>
           
-<section>
+<section> <!-- section -->
 
-            <div id="contener_nouveaute1">    
+            <div id="contener_nouveaute1">  
+
                 <div id="fiche_produit1">
                     <h2>Carte Graphique GeForce2500Tx</h2>
-                    <p></p>La Aorus GeForce GTX 1660 SUPER 6G est une carte graphique gaming abordable basée sur l'architecture GPU NVIDIA Turing.<br />
+                    <p>La Aorus GeForce GTX 1660 SUPER 6G est une carte graphique gaming abordable basée sur l'architecture GPU NVIDIA Turing.<br />
                     Version améliorée de la GTX 1660, elle s'appuie sur la puce graphique TU116, de la VRAM GDDR6, une interface mémoire 192 bits et 1408 Cores CUDA.</p>
                 </div>
 
                 <div id= "cartegraph">
-                    <p><img src="cartegraph.jpg" alt="carte grphique Nvidia" /></p>
+                    <p><img src="cartegraph.jpg" alt="carte graphique Nvidia" /></p>
                 </div>
-            </div>
+            </div>    
 
             <div id="contener_nouveaute2">
+
                 <div id="fiche_produit2">
                     <h2>LDLC PC Frackass</h2>
                     <p></p>Avec des composants de premier choix triés sur le volet par nos spécialistes et spécifiquement sélectionnés pour leur haute compatibilité, <br />
@@ -99,6 +103,7 @@
             </div>
 
             <div id="contener_nouveaute3">
+
                 <div id="fiche_produit3">
                     <h2>Disque dur LDLC BM2-NVME</h2>
                     <p></p>Le LDLC BM2-NVME est un boitier externe qui permet d'accueillir un SSD au format M.2 avec une interface PCIe NVMe.<br />
@@ -110,13 +115,15 @@
             </div>
 
                 
-<aside>
-                    <h1>À propos de l'auteur</h1>
-                    <img src="images/bulle.png" alt="" id="fleche_bulle" />
-                    <p id="photo_zozor"><img src="images/zozor_classe.png" alt="Photo de Zozor" /></p>
+<aside> <!-- i create an aside that i will put to the right of main section -->
+
+                    <h1>À propos de la livraison</h1>
+                    <img src="Terredegeeklogo.png" alt="" id="imageaside" />
                     <p>Pour la livraison, c'est même les DOM TOM</p>
                     <p>Vous pouvez payer en 3x sans frais</p>
-                    <p><img src="images/facebook.png" alt="Facebook" /><img src="images/twitter.png" alt="Twitter" /><img src="images/vimeo.png" alt="Vimeo" /><img src="images/flickr.png" alt="Flickr" /><img src="images/rss.png" alt="RSS" /></p>
+                    <p>Suivez-nous sur nos réseaux sociaux :</p>
+                    <p><img src="img/facebook.png" alt="Facebook" /><img src="img/twitter.png" alt="Twitter" /><img src="img/vimeo.png" alt="Vimeo" /><img src="img/flickr.png" alt="Flickr" /></p>
+
 </aside>
 
 
@@ -124,14 +131,9 @@
             
         
 
-<footer>
+<footer> <!-- Footer -->
 
                 <div id="contener_footer">
-               
-                    <!--<div id= "ligne">
-                        <p><img src="ligne.png" alt="ligne" /></p>
-                    </div>-->
-            
 
                 <div id="nousrejoindre">
                     <h1>Nous rejoindre :</h1>
@@ -153,14 +155,9 @@
                     <p>Modes de règlement</p>
                 </div>
 
-                    </div>
-            </div>
-        </div>
+                </div>
 </footer>
 
-        </div>
-    </body>
-    
- 
-
+        </div>   
+ </body>
 </html>
