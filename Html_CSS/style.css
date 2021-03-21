@@ -1,0 +1,297 @@
+body
+{
+    background: url('imagefondcss.png');
+    background-repeat: no-repeat;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-attachment: fixed;
+    background-size: 100%;
+    margin : auto;
+}
+
+#bloc_page
+{
+    width: 900px;
+    margin :auto;
+}
+
+
+section h1, footer h1, nav a
+{
+    font-family: 'Calibri', sans-serif, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/* Header */
+
+header
+{
+    background-color:rgb(0, 89, 255);
+    background-attachment: fixed;
+    background-size:contain;
+    width : 1900px;
+    padding-bottom : 35px;
+    padding-top : 35px;
+    margin : auto;
+    height: 60px;
+    margin-top: none;
+    display: flex;
+    flex-direction : row;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    display: block;
+    font-style: italic, sans-serif;
+}
+
+input {
+    margin: auto;
+    width : 400px;
+    position : relative;
+    left : 100px;
+    height : 30px;
+}
+
+button 
+{
+    position : relative;
+    left : 100px;
+    height : 30px;
+}
+
+
+#logo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position : relative;
+    right : 30px
+}
+
+#logo img
+{
+    opacity: 1;
+    width: 95px;
+    height: 95px;
+}
+
+header h1
+{
+    font-family: 'calibri', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0 0 0 20px;
+}
+
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 20px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color:white;
+    text-decoration: none;
+    position : relative;
+    left : 200px;
+}
+
+nav a:hover
+{
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+
+
+/* Bannière */
+
+#banniere_image
+{
+    margin-top: none;
+    height: 310px;
+    border-radius: 20px;
+    background-image: url('banniere.jpg');
+    position:relative;
+    box-shadow: 10px 10px 10px 5px #1c1a19;
+    margin-bottom: 25px;
+    opacity : 0.9;
+}
+
+#banniere_fond
+{
+    position: relative;
+    color : white;
+    left : 350px;
+    top : 100px;
+    
+}
+
+#gtxlogo
+{
+    position : relative;
+    left : 350px;
+    bottom : 330px;
+    opacity : 1;
+}
+
+#ordibanniere
+{
+    position : relative;
+    left : 100px;
+    bottom : 100px;
+}
+
+#promo
+{
+    position : relative;
+    left : 700px;
+    bottom : 400px;
+}
+
+/* Corps */
+
+section
+{
+    display: flex;
+    flex-direction : column ;
+    justify-content : space-between;
+    margin-bottom: 20px;
+    text-align : justify;
+}
+
+#contener_nouveaute1
+{
+    color : white;
+    text-shadow: gray;
+
+}
+
+#contener_nouveaute2
+{
+    color : white;
+    text-shadow: gray;
+}
+
+#contener_nouveaute3
+{
+    color : white;
+    text-shadow: gray;
+
+}
+
+article, aside
+{
+    text-align: justify;
+}
+
+article
+{
+    margin-right: 20px;
+    flex: 3;
+}
+
+.ico_categorie
+{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+article p
+{
+    font-size: 0.8em;
+}
+
+aside
+{
+    width : 300px;
+    position: relative;
+    left : 1300px;
+    background-color: #706b64;
+    box-shadow: 10px 10px 10px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+    opacity : 0.9
+}
+
+#fleche_bulle
+{
+    position: absolute;
+    top: 100px;
+    left: -12px;
+}
+
+#photo_zozor
+{
+    text-align: center;
+}
+
+#photo_zozor img
+{
+    border: 1px solid #181818;
+}
+
+aside img
+{
+    margin-right: 5px;
+}
+
+/* Footer */
+
+footer 
+{
+    background-color:rgb(0, 89, 255);
+    border-top: gray;
+    background-size:contain;
+    height : 250px;
+}
+
+footer p
+{
+    font-size: 0.8em;
+    color : white;
+}
+
+footer h1
+{
+    font-size: 1.1em;
+    color : white;
+}
+
+#contener_footer
+{
+    display : flex;
+    flex-direction : row;
+    justify-content : space-around;
+}
+
+#nousrejoindre
+{
+    margin-top : 40px;
+}
+
+#quisommesnous
+{
+    margin-top : 40px;
+}
+
+#besoindaide
+{
+    margin-top : 40px;
+}
+
+
