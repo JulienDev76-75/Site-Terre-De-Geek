@@ -1,6 +1,7 @@
 body 
 {
-    background-color : white;
+    background: url('imagefondcss.png');
+    background-repeat: no-repeat;
     font-family:Impact, 'Arial Narrow Bold', sans-serif, sans-serif;
     background-attachment: fixed;
     background-size: 100%;
@@ -10,21 +11,10 @@ body
 
 section h1, section p, footer h1, nav a /* i put a main police for different sections */
 {
+    font-family:'Dancing Script', cursive;
     font-weight: normal;
     text-transform: uppercase;
 }
-
-/* Section */
-
-section h1, section h2, section p
-{
-    color : black;
-    display : flex;
-    justify-content : center; 
-    margin : 4%;
-}
-
-
 
 /* Header */
 
@@ -94,7 +84,6 @@ nav a:hover
     color: black;
     border-bottom: 3px solid black;
 }
-
 
 
 /* Footer */

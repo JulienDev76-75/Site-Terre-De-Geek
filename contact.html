@@ -14,13 +14,15 @@
   <meta property="og:image" content="">
 
   <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="Terredegeeklogo.png">
+  <link rel="shortcut icon" href="css/Terredegeeklogo(1).ico" /> 
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="shortcut icon" href="Terredegeeklogo.png" /> <!-- Set up a Favicon   -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -47,47 +49,33 @@
         <nav> <!-- Menu with link towards others pages-->
             <ul>
                 <li><a href="index.html">Accueil</a></li>
-                <li><a href="Aproposdenous.html">Boutique</a></li>
-                <li><a href="equipeterredegeek.html">À propos de nous</a></li>
+                <li><a href="boutique.html">Boutique</a></li>
+                <li><a href="Aproposdenous.html">À propos de nous</a></li>
                 <li><a href="mentionlegale.html">Mention légale</a></li>
+                <li><a href="contact.html">contact</a></li>
             </ul>
         </nav>
     </div>
 
 <section>
-<h1>Contact :</h1>
-<form method="post" action="form.php">
-    <div class="champ">
-      <label for="pseudo">Entrez un pseudonyme : </label>
-      <input type="text" id="pseudo" name="pseudo">
-    </div>
-    <div class="champ">
-      <label for="pass">Entrez un mot de passe :</label>
-      <input type="password" id="pass" name="pass">
-    </div>
-    <div class="champ">
-      <label for="mail">Entrez un mail :</label>
-      <input type="email" id="mail" name="mail">
-    </div>
-    <div class="champ">
-      <input type="submit" value="Envoyer">
-     </div>
-  </form>
+  <h1>Contact :</h1>
 
+  <div class=formulaire>
   <form method="post" action="#">
-    <label for="prenom">Votre Prénom :</label><input type="text" id="prenom" name="prenom" placeholder="Ex: Jean" minlength="2" maxlength="40">
-    <label for="nom">Votre Nom :</label><input type="text" id="nom" name="nom" placeholder="Ex: BONNEAU" minlength="2" maxlength="40" required>
+    <label for="prenom">Votre Prénom :</label><input type="text" id="prenom" name="prenom" placeholder="Ex: Emile" minlength="2" maxlength="40">
+    <label for="nom">Votre Nom :</label><input type="text" id="nom" name="nom" placeholder="Ex: Louis" minlength="2" maxlength="40" required>
     <label for="phone">Votre numéro de téléphone</label><input type="tel" id="phone" name="phone" placeholder="Ex: 0123456789" pattern="[0-9]{10}">
-    <label for="customermail">Votre Email :</label><input type="text" id="customermail" name="customermail" placeholder="Ex: jean.bonneau@gmail.com" required>
+    <label for="customermail">Votre Email :</label><input type="text" id="customermail" name="customermail" placeholder="Ex: monemail@gmail.com" required>
     <label for="objet">Objet de votre message :</label><select id="objet" name="objet" required>                
       <option value="">Information</option>
       <option value="">Reclamation</option>
       <option value="">Partenariat</option>
       <option value="">Autres</option>
     </select>
-    <label for="message">Votre message :</label><textarea id="message" name="message" placeholder="Tapez votre message ici..." required style="height:170px"></textarea>
+    <label for="message">Votre message :</label><textarea id="message" name="message" placeholder="Tapez votre message ici..." required style="height:170px"></textarea><br/>
     <input type="submit" value="Envoyer">
-  </form>s
+  </form>
+</div>
   
   
 </section>

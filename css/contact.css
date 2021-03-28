@@ -1,0 +1,160 @@
+body 
+{
+    background: url('imagefondcss.png');
+    background-repeat: no-repeat;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif, sans-serif;
+    background-attachment: fixed;
+    background-size: 100%;
+    margin : auto;
+}
+
+
+section h1, section p, footer h1, nav a /* i put a main police for different sections */
+{
+    font-family:'Dancing Script', cursive;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/* Header */
+
+header
+{
+    background-color : #010740;
+    background-attachment: fixed;
+    padding-bottom : 2%;
+    padding-top : 2%;
+    height: 10vh;
+    display: flex; /* The elements will be flex : inline, and at center of the container */
+    align-items: center;
+    justify-content : center;
+}
+
+
+label {
+    display: block;
+}
+
+input {
+    margin: auto;
+    width : 400px;
+}
+
+/* refer to the navigation */
+.menu
+{
+    background-color: #0D145B;
+    display : flex;
+    justify-content: space-around;
+}
+
+.logo
+{
+    max-width: 100%; 
+    height: auto; 
+}
+
+.logo img
+{
+    opacity: 1;
+    width: 85px;
+    height: auto;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 20px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color:white;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+/* Section */
+
+section 
+{
+    color : white;
+    margin-bottom : 2%;
+}
+
+section h1
+{
+    display : flex;
+    justify-content : center;
+}
+
+.formulaire
+{
+    color : white;
+    margin-bottom : 2%; 
+    display : flex;
+    justify-content : center;
+}
+
+textarea
+{
+    width : 98%;
+}
+
+
+/* Footer */
+
+footer 
+{
+    background-color : #0D145B;
+    border: black;
+    background-size:contain;
+    color : white;
+}
+
+footer p
+{
+    font-size: 1em;
+    color : white;
+}
+
+#contener_footer
+{
+    display : flex;
+    flex-direction : row;
+    justify-content : space-around;
+}
+
+.nousrejoindre
+{
+    margin-top : 2%;
+}
+
+.quisommesnous
+{
+    margin-top : 2%;
+}
+
+.besoindaide
+{
+    margin-top : 2%;
+}
+
+.logo_footer
+{
+    margin-top : 2%;
+}
+
+
+

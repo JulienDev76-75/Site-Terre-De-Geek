@@ -50,7 +50,7 @@ section h2, section p
     padding-right : 1%;
 }
 
-.prestation
+table
 {
     margin-top : 2%;
     display : flex;
@@ -80,11 +80,6 @@ label {
     font-style: 'Arial',italic, sans-serif;
 }
 
-.searchbar
-{
-
-
-}
 
 input {
 
