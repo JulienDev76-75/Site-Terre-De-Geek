@@ -2,7 +2,7 @@ body
 {
     background: url('imagefondcss.png');
     background-repeat: no-repeat;
-    font-family:Impact, 'Arial Narrow Bold', sans-serif 'TrebuchetMs', sans-serif;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif, sans-serif;
     background-attachment: fixed;
     background-size: 100%;
     margin : auto;
@@ -34,7 +34,6 @@ header
 
 label {
     display: block;
-    font-style: 'Arial',italic, sans-serif;
 }
 
 /* refer to the navigation */
@@ -93,12 +92,12 @@ opacity : 0,5;
 display : flex;
 justify-content : space-around;
 align-items : center;
-margin-top : 10px;
+margin-top : 1%;
 opacity : 0.8;
 width : 50%;
 margin : auto;
-margin-top : 40px;
-margin-bottom : 20px;
+margin-top : 2%;
+margin-bottom : 2%;
 box-shadow: 10px 10px 10px 5px #1c1a19;
 border-radius: 10px;
 }
@@ -108,6 +107,12 @@ article p, article h2
     color : white;
 }
 
+article h4
+{
+    border : 3px solid #0D145B;
+    width : 100%;
+
+}
 
 .banniere_fond
 {
@@ -142,7 +147,7 @@ section
     justify-content: space-around;
     align-items : center;
     width : 60%;
-    height : 20vh;
+    height : 30vh;
     opacity : 0.8;
     padding : 1%;
 }
@@ -155,7 +160,7 @@ section
     justify-content: space-around;
     align-items : center;
     width : 60%;
-    height : 20vh;
+    height : 30vh;
     opacity : 0.8;
     padding : 1%;
 }
@@ -168,9 +173,17 @@ section
     justify-content: space-around;
     align-items : center;
     width : 60%;
-    height : 20vh;
+    height : 30vh;
     opacity : 0.8;
-     padding : 1%;
+    padding : 1%;
+}
+
+h4
+{
+    display : flex;
+    justify-content : center;
+    border : solid 3px blue;
+    width : 20%;
 }
 
 aside
