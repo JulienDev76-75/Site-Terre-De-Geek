@@ -4,6 +4,227 @@ body
     background-repeat: no-repeat;
     font-family:Impact, 'Arial Narrow Bold', sans-serif, sans-serif;
     background-attachment: fixed;
+    background-size: cover;
+    height : auto;
+}
+ /* header */
+header
+{
+    background-color : #010740;
+    background-attachment: fixed;
+    padding-bottom : 2%;
+    padding-top : 2%;
+    height: auto;
+    display: flex; /* The elements will be flex : inline, and at center of the container */
+    align-items: center;
+    justify-content : center;
+}
+
+label {
+    display: block;
+    margin-left : 20px;
+    width : 50%;
+    height : auto;
+}
+
+input {
+    margin-right : 20px;
+    width : auto;
+}
+
+.menu
+{
+    background-color: #0D145B;
+    display : flex;
+    flex-wrap : wrap;
+    justify-content: space-around;
+}
+
+.logo img
+{
+    width: 50%;
+    height: 50%;
+    max-width: 240px;
+    max-height: 240px;
+    margin-left : 40px;
+}
+
+/* menu */
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 20px;
+}
+
+nav a
+{
+    font-size: 10px;
+    color:white;
+    text-decoration: none;
+    display : flex;
+    text-align : justify;
+}
+
+nav a:hover
+{
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+article 
+{
+    display : none;
+}
+
+aside 
+{
+    display : none;
+}
+
+.logo_footer
+{
+    display : none;
+}
+/* section */
+
+section
+{
+    display : flex;
+    flex-direction: column;
+    align-items : flex-start;
+    justify-content : center;
+    margin-top : 4%;
+    margin-bottom : 2%;
+}
+
+.fiche_produit1, .fiche_produit2, .fiche_produit3
+{
+    color : black;
+    display : flex;
+    flex-direction : column;
+    padding-bottom : 2%;
+
+}
+
+.contener_nouveaute1
+{
+    background-color : white;
+    margin : 1%;
+    display : flex;
+    justify-content: space-around;
+    align-items : center;
+    opacity : 0.8;
+    padding : 1%;
+}
+
+.contener_nouveaute2
+{
+    background-color : white;
+    margin : 1%;
+    display : flex;
+    justify-content: space-around;
+    align-items : center;
+    opacity : 0.8;
+    padding : 1%;
+}
+
+.contener_nouveaute3
+{
+    background-color : white;
+    margin : 1%;
+    display : flex;
+    justify-content: space-around;
+    align-items : center;
+    opacity : 0.8;
+    padding : 1%;
+}
+
+h4
+{
+    display : flex;
+    justify-content : center;
+    border : solid 3px blue;
+}
+
+/* Footer */
+
+footer 
+{
+    background-color : #0D145B;
+    border: black;
+    background-size:contain;
+    color : white;
+    height : 20vh;
+}
+
+footer p
+{
+    font-size: 0.6em;
+    color : white;
+}
+
+footer h2
+{
+    font-size : 0.7em;
+    color : white;
+}
+
+#contener_footer
+{
+    display : flex;
+    flex-direction : row;
+    justify-content : space-around;
+}
+
+.nousrejoindre
+{
+    margin-top : 2%;
+}
+
+.quisommesnous
+{
+    margin-top : 2%;
+}
+
+.besoindaide
+{
+    margin-top : 2%;
+}
+
+.logo_footer
+{
+    margin-top : 2%;
+    width : 10px;
+    height : 10px;
+}
+
+
+@media screen and (min-width : 768px)
+{
+
+}
+
+
+@media screen and (min-width : 1024px)
+{
+
+}
+
+
+@media screen and (min-width : 1900px)
+{
+
+body 
+{
+    background: url('imagefondcss.png');
+    background-repeat: no-repeat;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif, sans-serif;
+    background-attachment: fixed;
     background-size: 100%;
     margin : auto;
 }
@@ -209,7 +430,6 @@ aside img
     margin-right: 5px;
 }
 
-
 /* Footer */
 
 footer 
@@ -253,5 +473,4 @@ footer p
     margin-top : 2%;
 }
 
-
-
+}
