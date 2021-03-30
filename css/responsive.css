@@ -247,13 +247,70 @@ footer h2
     font-size : 1em;
     color : white;
 }
+
+
 }
 
 
 @media screen and (min-width : 1024px)
 {
+    .contener_nouveaute1
+    {
+        background-color : white;
+        margin : 1%;
+        display : flex;
+        justify-content: space-around;
+        align-items : center;
+        opacity : 0.8;
+        padding : 1%;
+        width : 50%;
+    }
+    
+    .contener_nouveaute2
+    {
+        background-color : white;
+        margin : 1%;
+        display : flex;
+        justify-content: space-around;
+        align-items : center;
+        opacity : 0.8;
+        padding : 1%;
+        width : 50%;
+    }
+    
+    .contener_nouveaute3
+    {
+        background-color : white;
+        margin : 1%;
+        display : flex;
+        justify-content: space-around;
+        align-items : center;
+        opacity : 0.8;
+        padding : 1%;
+        width : 50%;
+    }
 
+    .logo_footer
+    {
+        display : block;
+        width : 10%;
+    }
+
+    aside
+{   
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    width : 25%;
+    display : flex;
+    justify-content : center;
+    margin-left: 70%;
+    position : absolute;
+    text-align: center;
 }
+}
+
+
 
 
 @media screen and (min-width : 1900px)
