@@ -11,10 +11,12 @@ body
 
 section h1, section p, footer h1, nav a /* i put a main police for different sections */
 {
-    font-family:'Dancing Script', cursive;
+    font-family: 'Della Respira', serif;
     font-weight: normal;
     text-transform: uppercase;
 }
+
+
 
 /* Header */
 
@@ -33,6 +35,8 @@ header
 
 label {
     display: block;
+    font-family: 'Della Respira', serif;
+    
 }
 
 input {
